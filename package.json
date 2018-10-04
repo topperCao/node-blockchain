@@ -1,6 +1,6 @@
 {
   "name": "iblockchain",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Learn blockchain by building one in node.js",
   "main": "index.js",
   "bin": {
