@@ -7,10 +7,10 @@ const key = require('./keys')
 const initBlock = {
   index: 0,
   previousHash: '0',
-  timestamp: 1536597291084,
-  data: 'Hello iblockchain!',
-  hash: '000000030ac39183ade44f01e3697b8b07a75ed40e399165f63060f987baa250',
-  nonce: 1949029
+  timestamp: 1538669227813,
+  data: 'Welcome to iblockchain!',
+  hash: '00000aa1fbf27775ab79612bcb8171b3a9e02efe32fa628450ba6e729cf03996',
+  nonce: 979911
 }
 class Blockchain {
   constructor () {
@@ -20,7 +20,7 @@ class Blockchain {
     // 还没打包的交易数据
     this.data = []
     // 挖矿难度值
-    this.difficulty = 6
+    this.difficulty = 5
     // p2p网络节点
     this.peers = []
     // 本地节点对外的公网ip和端口
