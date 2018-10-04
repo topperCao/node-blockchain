@@ -186,10 +186,8 @@ class Blockchain {
         break
       case 'trans':
         // 网络上的交易请求 传给本地区块链
-        console.log('[信息]: 收到一个交易广播',action.data)
-
         if (!this.data.find(v => this.isEqualObj(v, action.data))) {
-          console.log('[信息]: 交易合法 广播一下')
+          console.log('[信息]: 交易合法 新增一下',action.data)
 
           this.addTrans(action.data)
           this.boardcast({ type: 'trans', data: action.data })
