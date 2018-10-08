@@ -1,8 +1,14 @@
 
 
-<p style='text-align:center'>
+<p align="center">
   <img  src="./logo.svg" alt="iblockchain logo">
 </p> 
+
+<p align="center">
+  <a href="https://npmcharts.com/compare/iblockchain"><img src="https://img.shields.io/npm/dm/iblockchain.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/iblockchain"><img src="https://img.shields.io/npm/v/iblockchain.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/iblockchain"><img src="https://img.shields.io/npm/l/iblockchain.svg" alt="License"></a>
+</p>
 
 ## 功能
 
