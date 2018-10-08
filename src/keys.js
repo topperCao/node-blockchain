@@ -44,13 +44,14 @@ function verifyMsg (value, sig, pub) {
 }
 
 function sign ({ from, to, amount, timestamp }) {
-  return signMsg(`${from}-${to}-${amount}-${timestamp}`)
+  return signMsg(`${timestamp}-${amount}-${from}-${to}`)
+
   // const buffferMsg = Buffer.from(`${from}-${to}-${amount}`)
   // let hexSignature = Buffer.from(keypair.sign(buffferMsg).toDER()).toString('hex')
   // return hexSignature
 }
 function verify ({ from, to, amount, timestamp, sig }) {
-  return verifyMsg(`${from}-${to}-${amount}-${timestamp}`, sig, from)
+  return verifyMsg(`${timestamp}-${amount}-${from}-${to}`, sig, from)
   // const keypairTemp = ec.keyFromPublic(pub, 'hex')
 
   // let binaryMessage = Buffer.from(`${from}-${to}-${amount}`)
