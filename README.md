@@ -293,9 +293,13 @@ iblockchain => exit
 ## 联系
 
 大家可以加我微信
-![](./woniu.png)
+
+<img src="./woniu.png" width='150px'>
+
 或者直接捐赠
-![](./8.jpeg)
+
+<img src="./8.jpeg" width='150px'>
+
 
 ## 协议
 
