@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node ./bin/index.js",
     "server": "node ./src/server.js 8001",
-    "deploy": "pm2 start ./src/server.js -- 8001",
+    "deploy": "pm2 start ./src/server.js --log-date-format='YYYY-MM-DD HH:mm Z' -- 8001 ",
     "lint": "eslint --fix --ext .js src ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
