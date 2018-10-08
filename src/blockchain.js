@@ -406,10 +406,9 @@ class Blockchain {
   mineDemo (data, difficulty) {
     let nonce = 0
     let hash = this.sha256Hash(String(data) + nonce, true)
-
     while (hash.slice(0, difficulty) !== '0'.repeat(difficulty)) {
       nonce = nonce + 1
-      hash = this.sha256Hash(String(data) + nonce)
+      hash = this.sha256Hash(String(data) + nonce, true)
     }
   }
   mineForBlock (index) {
