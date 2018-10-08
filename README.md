@@ -1,7 +1,7 @@
 
 
-<p>
-  <img width="100" src="./logo.svg" alt="iblockchain logo">
+<p style='text-align:center'>
+  <img  src="./logo.svg" alt="iblockchain logo">
 </p> 
 
 ## 功能
