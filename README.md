@@ -93,7 +93,7 @@ iblockchain => blockchain
 
 **挖矿,新增区块 mine**
 
-``` bash
+```bash
 iblockchain => mine
 
 // output
@@ -116,7 +116,7 @@ iblockchain => mine
 
 **查看本地地址（公钥） pub**
 
-```
+```bash
 iblockchain => pub
 //output
 041ad79cddfcc575efdae26e46e14a13c600967aff1db6d7eba66f770d585c542dfaed897f72b5bc40595f5601a868837f63bface539350ac6d013b99d17a0fbeb
