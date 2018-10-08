@@ -85,6 +85,7 @@ class Blockchain {
 
       this.peers.push(this.seed)
     }else{
+      this.mine()
       setInterval(()=>{
         this.mine()
       },1000*60*60)
