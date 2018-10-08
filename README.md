@@ -1,3 +1,3 @@
 # iblockchain
 
-![](./logo.png)
+![](./logo.svg)
